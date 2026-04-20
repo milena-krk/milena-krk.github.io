@@ -1,41 +1,72 @@
 <!DOCTYPE html>
+<!-- Informuje przeglądarkę, że dokument jest w HTML5 -->
+
 <html lang="pl">
+<!-- Początek dokumentu HTML, "pl" oznacza język polski -->
+
 <head>
     <meta charset="UTF-8">
+    <!-- Ustawia kodowanie znaków (obsługa polskich znaków) -->
+
     <title>Milena Kryvitska – Nauka HTML'a</title>
+    <!-- Tytuł strony (wyświetlany na karcie przeglądarki) -->
+
     <style>
+        /* Stylowanie całej strony */
         body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            text-align: center;
-            padding: 50px;
+            font-family: Arial, sans-serif; /* Czcionka */
+            background: #f4f4f4; /* Kolor tła */
+            text-align: center; /* Wyśrodkowanie tekstu */
+            padding: 50px; /* Odstęp od krawędzi */
         }
+
+        /* Styl dla "karty" (prostokątnego boxa) */
         .card {
-            background: white;
-            max-width: 400px;
-            margin: auto;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: white; /* Białe tło */
+            max-width: 400px; /* Maksymalna szerokość */
+            margin: auto; /* Wyśrodkowanie na stronie */
+            padding: 30px; /* Wewnętrzny odstęp */
+            border-radius: 10px; /* Zaokrąglone rogi */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Cień */
         }
-        h1 { margin-bottom: 10px; }
+
+        /* Styl nagłówka */
+        h1 { 
+            margin-bottom: 10px; /* Odstęp pod nagłówkiem */
+        }
+
+        /* Styl linków */
         a {
-            color: #007acc;
-            text-decoration: none;
+            color: #007acc; /* Kolor linku */
+            text-decoration: none; /* Usunięcie podkreślenia */
         }
     </style>
 </head>
+
 <body>
+<!-- Widoczna część strony -->
 
 <div class="card">
+    <!-- Kontener (karta) z danymi -->
+
     <h1>Milena Kryvitska</h1>
+    <!-- Główny nagłówek (imię i nazwisko) -->
+
     <p>Klasa VIII</p>
-    <p>📧 <a href="mailto:milenka@gmail.com">milena@gmail.com</a></p>
-    <p>🔗 <a href="https://bnbacademyofdance.pl">BNB Academy</a></p>
+    <!-- Paragraf z informacją o klasie -->
+
+    <p>📧 
+        <a href="mailto:milenka@gmail.com">milena@gmail.com</a>
+    </p>
+    <!-- Link do wysłania e-maila (po kliknięciu otwiera się poczta) -->
+
+    <p>🔗 
+        <a href="https://bnbacademyofdance.pl">BNB Academy</a>
+    </p>
+    <!-- Link do strony internetowej -->
+
 </div>
 
 </body>
-
 </html>
-
 
